@@ -1,0 +1,35 @@
+
+#GameBoardContainer {
+	position: relative;
+}
+
+#GameOver {
+    position: absolute;
+    top: 40%;
+    left: 50px;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: red;
+}
+
+#GameBoard tbody td {
+	height: 64px;
+	width: 64px;
+	text-align: center !important;
+	vertical-align: middle !important;
+	border: 1px solid black;
+}
+
+.inplay td.tile {
+	cursor: pointer;
+}
+
+td.tile {
+	background-image: url(/img/tile.png);
+}
+
+td.mine {
+	background-image: url(/img/mine.png);
+}
+
+
